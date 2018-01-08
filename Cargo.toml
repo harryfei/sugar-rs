@@ -2,3 +2,7 @@
 authors = ["fangyuanziti <tiziyuanfang@gmail.com>"]
 name = "sugar"
 version = "0.1.0"
+repository = "https://github.com/fangyuanziti/sugar-rs.git"
+documentation = "https://docs.rs/sugar/"
+license = "MIT"
+description= "Rust syntax sugar collections."
