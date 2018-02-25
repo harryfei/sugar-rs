@@ -13,7 +13,9 @@ extern crate vec_box;
 mod result_ext;
 mod hashmap_ext;
 mod collections_macros;
+mod basic_macros;
 
 pub use result_ext::SResultExt;
 pub use hashmap_ext::SHashMapExt;
 pub use collections_macros::*;
+pub use basic_macros::*;
