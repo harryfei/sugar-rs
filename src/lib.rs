@@ -10,6 +10,10 @@ extern crate cute;
 #[allow(unused_imports)]
 extern crate vec_box;
 
+#[macro_use]
+#[allow(unused_imports)]
+extern crate min_max_macros;
+
 mod result_ext;
 mod hashmap_ext;
 mod collections_macros;
