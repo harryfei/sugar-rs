@@ -1,5 +1,6 @@
 pub use maplit::*;
 pub use cute::*;
+pub use vec_box::*;
 
 #[cfg(test)]
 mod tests {

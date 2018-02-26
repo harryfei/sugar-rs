@@ -6,6 +6,10 @@ extern crate maplit;
 #[allow(unused_imports)]
 extern crate cute;
 
+#[macro_use]
+#[allow(unused_imports)]
+extern crate vec_box;
+
 mod result_ext;
 mod hashmap_ext;
 mod collections_macros;

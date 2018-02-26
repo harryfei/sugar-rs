@@ -10,3 +10,4 @@ description= "Rust syntax sugar collections."
 [dependencies]
 maplit = "1.0.1"
 cute = "0.3.0"
+vec_box = "1.0.0"
