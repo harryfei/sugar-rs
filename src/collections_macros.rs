@@ -6,8 +6,7 @@ pub use vec_box::*;
 mod tests {
     #[test]
     fn it_works() {
-
-        let v = vec![1, 2 ,3];
+        let v = vec![1, 2, 3];
         let map = hashmap!(
             1 => "1".to_owned(),
             2 => "2".to_owned(),
