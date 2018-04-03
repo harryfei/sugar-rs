@@ -17,9 +17,9 @@ extern crate min_max_macros;
 mod result_ext;
 mod hashmap_ext;
 mod collections_macros;
-mod basic_macros;
+mod primitive_syntax;
 
 pub use result_ext::SResultExt;
 pub use hashmap_ext::SHashMapExt;
 pub use collections_macros::*;
-pub use basic_macros::*;
+pub use primitive_syntax::*;
