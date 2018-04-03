@@ -1,7 +1,7 @@
 [package]
 authors = ["fangyuanziti <tiziyuanfang@gmail.com>"]
 name = "sugar"
-version = "0.1.0"
+version = "0.2.0"
 repository = "https://github.com/fangyuanziti/sugar-rs.git"
 documentation = "https://docs.rs/sugar/"
 license = "MIT"
