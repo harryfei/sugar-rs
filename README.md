@@ -8,7 +8,7 @@ use sugar::*;
 ```
 # Overview
 
-```
+```rust
 use sugar::*;
 
 // vec of boxed value
