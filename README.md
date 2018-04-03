@@ -2,11 +2,11 @@
 
 Syntax sugar to make your Rust life more sweet.
 
-# Usage
+## Usage
 ```rust
 use sugar::*;
 ```
-# Overview
+## Overview
 
 ```rust
 use sugar::*;
