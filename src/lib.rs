@@ -116,12 +116,14 @@ extern crate vec_box;
 #[allow(unused_imports)]
 extern crate min_max_macros;
 
-mod result_ext;
-mod hashmap_ext;
 mod collections_macros;
+mod hashmap_ext;
+mod number_ext;
 mod primitive_syntax;
+mod result_ext;
 
-pub use result_ext::SResultExt;
-pub use hashmap_ext::SHashMapExt;
 pub use collections_macros::*;
+pub use hashmap_ext::SHashMapExt;
+pub use number_ext::SNumExt;
 pub use primitive_syntax::*;
+pub use result_ext::SResultExt;
