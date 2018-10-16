@@ -36,7 +36,7 @@
 //! * `hashmap!` and related macros are reexported from [`maplit`](https://docs.rs/maplit) crate
 //! * `c!` list comprehension macro is reexported from [`cute`](https://docs.rs/cute) crate
 //!
-//! ## Hashmap: clone a value of speical key.
+//! ## Hashmap: clone a value of special key.
 //!
 //! ```
 //! use sugar::*;
