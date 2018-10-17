@@ -99,6 +99,23 @@
 //! // return_2 will be called once
 //! assert_eq!(cmp!(1, < return_2(), <= 2), true);
 //! ```
+//!
+//!
+//! ## SNumExt trait
+//! ```
+//! use sugar::*;
+//! use std::time::Duration;
+//!
+//! // Duration generation
+//! assert_eq!(3.sec(), Duration::from_secs(3));
+//! assert_eq!(3.ms(), Duration::from_millis(3));
+//! assert_eq!(3.hour(), Duration::from_secs(3 * 60 * 60));
+//!
+//! // Call function multiple times.
+//! 3.times(|i| {
+//!   println!("call: {}", i);
+//! })
+//! ```
 
 #[macro_use]
 #[allow(unused_imports)]
