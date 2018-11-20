@@ -134,6 +134,7 @@ extern crate vec_box;
 extern crate min_max_macros;
 
 mod collections_macros;
+mod comprehension;
 mod hashmap_ext;
 mod number_ext;
 mod primitive_syntax;
