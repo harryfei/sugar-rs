@@ -70,7 +70,7 @@ mod vec_comprehension_tests {
 
     #[test]
     fn filter_comprehension() {
-        let squares = c![x*x, for x in 0..10, if x % 2 == 0];
+        let squares = v![x*x, for x in 0..10, if x % 2 == 0];
         assert_eq!(squares, vec![0, 4, 16, 36, 64]);
     }
 

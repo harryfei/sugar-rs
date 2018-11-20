@@ -23,18 +23,18 @@
 //!     3 => 4,
 //! };
 //!
-//! // list comprehension
-//! let vb2 = c![Box::new(i), for i in 1..4];
+//! // vec/list comprehension
+//! let vb2 = v![Box::new(i), for i in 1..4];
 //! assert_eq!(vb, vb2);
 //!
 //! // hashmap comprehension
-//! let hm2 = c![i => i + 1, for i in 1..4];
+//! let hm2 = m![i => i + 1, for i in 1..4];
 //! assert_eq!(hm, hm2);
 //! ```
 //!
 //! * `vec_box!` is reexported from [`vec_box`](https://docs.rs/vec_box)
 //! * `hashmap!` and related macros are reexported from [`maplit`](https://docs.rs/maplit) crate
-//! * `c!` list comprehension macro is reexported from [`cute`](https://docs.rs/cute) crate
+//! * `v!` and `m!` comprehension macro. Origin code copied from [`cute`](https://docs.rs/cute) crate
 //!
 //! ## Hashmap: clone a value of special key.
 //!
@@ -123,18 +123,16 @@ extern crate maplit;
 
 #[macro_use]
 #[allow(unused_imports)]
-extern crate cute;
-
-#[macro_use]
-#[allow(unused_imports)]
 extern crate vec_box;
 
 #[macro_use]
 #[allow(unused_imports)]
 extern crate min_max_macros;
 
-mod collections_macros;
+#[macro_use]
 mod comprehension;
+
+mod collections_macros;
 mod hashmap_ext;
 mod number_ext;
 mod primitive_syntax;

@@ -1,5 +1,4 @@
 pub use maplit::*;
-pub use cute::*;
 pub use vec_box::*;
 
 #[cfg(test)]
@@ -13,6 +12,6 @@ mod tests {
             3 => "3".to_owned(),
         );
 
-        assert_eq!(map, c![i => i.to_string(), for i in v])
+        assert_eq!(map, m!{i => i.to_string(), for i in v})
     }
 }

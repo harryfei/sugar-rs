@@ -14,8 +14,8 @@ use sugar::*;
 // vec of boxed value
 let vb1 = vec_box![1, 2, 3];
 
-// list comprehension
-let vb2 = c![Box::new(i), for i in 1..4];
+// vec/list comprehension
+let vb2 = v![Box::new(i), for i in 1..4];
 
 // hashmap construction
 let hm1 = hashmap!{
@@ -25,7 +25,7 @@ let hm1 = hashmap!{
 };
 
 // hashmap comprehension
-let hm2 = c![i => i + 1, for i in 1..4];
+let hm2 = m!{i => i + 1, for i in 1..4};
 
 let _ = max!(1, 2, 3);
 let _ = min!(1, 2, 3);
