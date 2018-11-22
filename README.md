@@ -31,7 +31,7 @@ let _ = max!(1, 2, 3);
 let _ = min!(1, 2, 3);
 
 if cmp!(1, < num， < 3) {
-    println!("hello world");
+    println!("num is between 1 and 3");
 }
 
 ```
